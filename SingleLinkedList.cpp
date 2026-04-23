@@ -18,4 +18,15 @@ public:
     {
         START = NULL;
     }
+
+    Void addNode()
+    {
+        int nim;
+        cout << "\nMasukkan Nomor Mahasiswa : ";
+        cin >> nim;
+
+        Node *nodebaru = new Node;
+        nodebaru->noMhs = nim;
+    }
 };
+
