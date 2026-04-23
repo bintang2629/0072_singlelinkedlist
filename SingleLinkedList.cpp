@@ -153,8 +153,21 @@ int main()
            cout << "\nData tidak ditemukan" << endl;
            else
                cout << "\nData dengan nomor mahasiswa " << nim << " berhasil di hapus"\n";
-            break;   
-        }
+            break;
+            
+        case '3':
+            mhs.traverse();
+            break;
+
+        case '4':
+        {
+            if  (mhs.listEmpty())
+            {
+                cout << "\list kosong\n";
+                break;    
+            }
+
+            Node *previous, *current;
     }
     
     
