@@ -168,6 +168,21 @@ int main()
             }
 
             Node *previous, *current;
+            cout << "\nMasukkan nomor mahasiswa yang akan di cari : ";
+            cin >> nim;
+
+            if (mhs.search(nim, previous current) == false)
+                cout << "\nData tidak ditemukan\n";
+            else
+            {
+                cout << "\nData ditemukan\n";
+                cout << "\nNomor mahasiswa : " << current->noMhs << endl;
+            }
+            break;
+        }
+                    
+
+
     }
     
     
